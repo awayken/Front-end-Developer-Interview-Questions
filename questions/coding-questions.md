@@ -17,7 +17,7 @@ console.log(0.1 + 0.2 == 0.3);
 add(2, 5); // 7
 add(2)(5); // 7
 ```
-*Answer:* [https://codepen.io/awayken/pen/MXaPjp?editors=0012]
+*Answer:* https://codepen.io/awayken/pen/MXaPjp?editors=0012
 
 *Question: What value is returned from the following statement?*
 ```javascript
@@ -82,4 +82,4 @@ doSomething().then(doSomethingElse());
 
 doSomething().then(doSomethingElse);
 ```
-*Answer:* First will return the result of doing something else. Second will do something else but not return anything. Third will execute something else immediately but result will follow proper then. Fourth is equivalent to second by passing function reference instead. [https://codepen.io/awayken/pen/pKjxKw?editors=0012]
+*Answer:* First will return the result of doing something else. Second will do something else but not return anything. Third will execute something else immediately but result will follow proper then. Fourth is equivalent to second by passing function reference instead. https://codepen.io/awayken/pen/pKjxKw?editors=0012
